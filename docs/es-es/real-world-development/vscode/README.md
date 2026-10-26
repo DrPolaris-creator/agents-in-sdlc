@@ -1,14 +1,14 @@
 ---
 slug: es-es/real-world-development/vscode
-title: "VS Code"
+title: "Visual Studio Code"
 authors:
   - geektrainer
 lastUpdated: 2026-06-30
 ---
 
-**[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** en VS Code lleva GitHub Copilot al editor de código que ya utilizas. Al trabajar en Visual Studio Code (y GitHub Codespaces), dirigirás Copilot Chat en modo agente, conectarás herramientas externas mediante MCP y utilizarás agentes personalizados, todo ello sin salir del IDE, donde Copilot puede ver todos tus archivos, el terminal y los problemas.
+**[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** en VS Code incorpora GitHub Copilot al editor de código que ya usas. En Visual Studio Code y GitHub Codespaces, trabajarás con Copilot Chat en modo de agente, conectarás herramientas externas mediante Model Context Protocol (MCP) y usarás agentes personalizados, todo desde el entorno de desarrollo integrado (IDE), donde Copilot tiene acceso a tus archivos, el terminal y los problemas.
 
-Empezarás por añadir instrucciones personalizadas y observar cómo las sigue Copilot; después, utilizarás el modo agente para crear una funcionalidad de filtrado que abarque la interfaz, la capa de datos y las pruebas. A continuación, conectarás el servidor MCP de Playwright y dejarás que Copilot maneje un navegador para probar la funcionalidad antes de abrir una solicitud de incorporación de cambios. Por último, revisarás y utilizarás un agente personalizado para trabajar en la accesibilidad y, después, supervisarás, dirigirás e iterarás sobre los cambios de Copilot, todo ello sin salir del editor.
+Empezarás añadiendo instrucciones personalizadas y observando cómo las sigue Copilot. Después, usarás el modo de agente para crear una funcionalidad de filtrado que abarque la interfaz, la capa de datos y las pruebas. A continuación, conectarás el servidor Playwright MCP y dejarás que Copilot controle un navegador para probar la funcionalidad antes de abrir una solicitud de incorporación de cambios. Por último, revisarás y usarás un agente personalizado para tareas de accesibilidad y supervisarás, orientarás e iterarás sobre los cambios de Copilot sin salir del editor.
 
 ## Ejercicios
 
@@ -19,9 +19,9 @@ Empezarás por añadir instrucciones personalizadas y observar cómo las sigue C
 | [2. Modo agente][ex2] | Generación de código | Crea una funcionalidad de filtrado con el modo agente |
 | [3. MCP con Playwright][ex3] | Herramientas externas | Prueba la funcionalidad en un navegador con el servidor MCP de Playwright |
 | [4. Agentes personalizados][ex4] | Agentes especializados | Revisa y utiliza agentes personalizados |
-| [5. Gestión de agentes][ex5] | Supervisión | Supervisa y dirige sesiones de agentes |
-| [6. Iteración][ex6] | Revisión | Revisa el trabajo de Copilot localmente y elige los siguientes pasos |
-| [Opcional: Incorporar Foundry][foundry-toolkit] | Agentes de IA | Prepara un modelo, implementa un agente y conéctalo al sitio en tres módulos con VS Code y Foundry Toolkit |
+| [5. Supervisar y gestionar agentes][ex5] | Supervisión | Supervisa y orienta las sesiones del agente |
+| [6. Iterar][ex6] | Revisión | Revisa localmente el trabajo de Copilot y elige los siguientes pasos |
+| [Opcional: incorporar Foundry][foundry-toolkit] | Agentes de IA | Prepara un modelo, despliega un agente y conéctalo al sitio en tres módulos con VS Code y Foundry Toolkit |
 
 ## Requisitos previos
 
